@@ -1,0 +1,264 @@
+*{
+  font-family: sans-serif;
+  font-size: medium;
+  padding: 0;
+  margin: 0;
+  color: snow;
+}
+body{
+  margin: 0 100px;
+  background-color: #7fafce;
+}
+
+h2{
+  font-size: 40px;
+
+}
+header.top{
+  height: 80px;
+  margin: 0 100px;
+  background-color:#fcf9f4;
+  font-size: 18px;
+  position: relative;
+}
+header.top .top-logo{
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+}
+header.top .top-logo img{
+  float: right;
+  height: 90%;
+  margin: 0.5% 6%;
+  width: 50%;
+}
+header.top nav{
+  height: 100%;
+  position: absolute;
+  width: 60%;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  border-left: 1px solid #999999;
+  border-right: 1px solid #999999;
+}
+header.top nav ul{
+  margin-top: 2%;
+  padding-left: 0;
+}
+header.top nav ul li{
+  font-size: 18px;
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px 15px;
+}
+header.top nav ul li a{
+  text-decoration: none;
+  color: #999999;
+}
+header.top nav ul li a:hover{
+  color: #61c4ff;
+}
+header.top .donate{
+  display: inline-block;
+  float: right;
+  height: 100%;
+  width:20%;
+}
+header.top .donate button{
+  background-color: #fcf9f4;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  height: 30px;
+  width: 90px;
+  margin: 8% 40%;
+  position: absolute;
+  color: black;
+}
+.s1{
+  height: 550px;
+  margin: 0 100px;
+  position: relative;
+}
+body .s1 img{
+  height: 100%;
+  width:100%;
+}
+
+.s2, .s3, .s4, .s5{
+  height: 500px;
+  margin: 0 100px;
+  position: relative;
+}
+.s2{
+  background-color: snow;
+  text-align: center;
+}
+.s2 .mission{
+  width: 100%;
+  line-height: 35px;
+  position: relative;
+  top: 40%;
+  left: 3%;
+  font-weight: lighter;
+}
+.s2 .mission h2,body .s2 .mission p{
+  color: #999999
+}
+body .s2 .mission button{
+  border-radius: 4px;
+  width: 150px;
+  height: 30px;
+  background-color: darkorange;
+  border: none;
+  color: #999999;
+}
+.s3{
+  background-color: #7ed7c6;
+}
+.s3 .s3-image{
+  height: 100%;
+  width: 50%;
+  position: absolute;
+}
+.s3 .s3-image img{
+  height: 60%;
+  width: 45%;
+  margin-top: 15%;
+  margin-left: 40%;
+}
+.s3 .s3-content{
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+.s3 .s3-content .students-content{
+  width: 50%;
+  height: 100px;
+  margin-top: 25%;
+  margin-left: 1%;
+}
+.s3 .s3-content .circle{
+  display: inline-block;
+  width: 5%;
+  margin: -20% -20%;
+  float: right;
+}
+.s3 .s3-content .circle .circle-1{
+  background-color: #7cb69a;
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+.s3 .s3-content .circle .circle-1:hover{
+  background-color: white;
+  cursor: auto;
+}
+.s3 .s3-content button{
+  background-color: rgba(64, 70, 49, 0.64);
+  border: none;
+  border-radius: 4px;
+  height: 30px;
+  width: 150px;
+  margin-top: 10px;
+  position: absolute;
+}
+.s3 .s3-content h2,.s3 .s3-content p{
+  color: snow;
+  font-weight: 100;
+}
+.s4{
+  background-color: #ffc719;
+}
+.s4 .s4-image{
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  float: right;
+}
+.s4 .s4-image img{
+  height: 60%;
+  width: 45%;
+  margin-top: 5%;
+  margin-left: 115%;
+}
+.s4 .s4-content{
+  width: 50%;
+  height: 100px;
+}
+.s4 .s4-content .tutors-content{
+  width: 50%;
+  height: 100px;
+  margin-left: -30%;
+  margin-top: 25%;
+  float: right;
+}
+.s4 .s4-content h2,.s4 .s4-content p{
+  color: snow;
+  font-weight: 100;
+}
+.s4 .s4-content .tutors-content button{
+  background-color: #ada095;
+  border: none;
+  border-radius: 4px;
+  height: 30px;
+  width: 150px;
+  margin-top: 10px;
+}
+.s5{
+  background-color: #7fafce;
+}
+.s5 .s5-content{
+  width: 50%;
+  height: 100%
+}
+.s5 .s5-image{
+  width: 50%;
+  height: 100%;
+}
+.s5 .s5-image img{
+  height: 60%;
+  width: 45%;
+  margin-top: 15%;
+  margin-left: 40%;
+}
+.s5 .s5-content .partners-content{
+  width: 50%;
+  height: 100px;
+  margin-top: -40%;
+  margin-left: 115%;
+  position: relative;
+}
+.s5 .s5-content .partners-content button{
+  background-color: #6d8da9;
+  border: none;
+  border-radius: 4px;
+  height: 30px;
+  width: 150px;
+  margin-top: 10px;
+  position: absolute;
+}
+.s6{
+  height: 550px;
+  margin: 0 100px;
+  background-color: red;
+  position: relative;
+}
+.s6 .progress{
+  border: 1px solid black;
+
+  text-align: center;
+}
+.s6 .container{
+
+}
+
+
+footer{
+  height:60px;
+  margin: 0 100px;
+  background-color: black;
+  text-align: center;
+  position: relative;
+}
