@@ -1,22 +1,30 @@
 *{
-  font-family: sans-serif;
-  font-size: medium;
   padding: 0;
-  margin: 0;
-  color: snow;
+  margin: 0 0;
 }
 body{
-  margin: 0 100px;
+  margin: 0 90px;
   background-color: #7fafce;
+  color: #f6f6f6;
+  font-family: sans-serif;
+  font-size: medium;
+  font-weight: 100;
 }
-
+h1{
+  font-size:50px;
+  color: #fcfcfc;
+}
 h2{
   font-size: 40px;
-
+}
+.s2, .s3, .s4, .s5{
+  height: 550px;
+  margin: 0 90px;
+  position: relative;
 }
 header.top{
   height: 80px;
-  margin: 0 100px;
+  margin: 0 90px;
   background-color:#fcf9f4;
   font-size: 18px;
   position: relative;
@@ -39,8 +47,8 @@ header.top nav{
   text-align: center;
   display: inline-block;
   list-style-type: none;
-  border-left: 1px solid #999999;
-  border-right: 1px solid #999999;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
 }
 header.top nav ul{
   margin-top: 2%;
@@ -67,29 +75,52 @@ header.top .donate{
 }
 header.top .donate button{
   background-color: #fcf9f4;
-  border: 1px solid #999999;
+  border: 1px solid gray;
   border-radius: 4px;
   height: 30px;
-  width: 90px;
-  margin: 8% 40%;
-  position: absolute;
+  width: 120px;
+  margin-top: 10%;
+  margin-left: 5%;
+  position: relative;
   color: black;
 }
 .s1{
   height: 550px;
-  margin: 0 100px;
+  margin: 0 90px;
   position: relative;
 }
 body .s1 img{
   height: 100%;
   width:100%;
 }
-
-.s2, .s3, .s4, .s5{
-  height: 500px;
-  margin: 0 100px;
-  position: relative;
+.s1 .mask {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
+.s1 .log-info{
+  left: 50%;
+  margin-left: -500px;
+  position: absolute;
+  text-align: center;
+  top: 32%;
+  width: 1000px;
+}
+.s1 .log-info button{
+  height: 40px;
+  width :200px;
+  border: 0.5px solid;
+  border-radius: 4px;
+  margin: 50px 10px;
+  background-color: transparent;
+  color: snow;
+}
+.s1 .log-info button.tutor{
+  background-color: #d2d2d2;
+}
+
 .s2{
   background-color: snow;
   text-align: center;
@@ -164,10 +195,6 @@ body .s2 .mission button{
   margin-top: 10px;
   position: absolute;
 }
-.s3 .s3-content h2,.s3 .s3-content p{
-  color: snow;
-  font-weight: 100;
-}
 .s4{
   background-color: #ffc719;
 }
@@ -188,18 +215,14 @@ body .s2 .mission button{
   height: 100px;
 }
 .s4 .s4-content .tutors-content{
-  width: 50%;
+  width: 60%;
   height: 100px;
-  margin-left: -30%;
+  margin-left: -40%;
   margin-top: 25%;
   float: right;
 }
-.s4 .s4-content h2,.s4 .s4-content p{
-  color: snow;
-  font-weight: 100;
-}
 .s4 .s4-content .tutors-content button{
-  background-color: #ada095;
+  background-color: #b2b2b2;
   border: none;
   border-radius: 4px;
   height: 30px;
@@ -226,8 +249,8 @@ body .s2 .mission button{
 .s5 .s5-content .partners-content{
   width: 50%;
   height: 100px;
-  margin-top: -40%;
-  margin-left: 115%;
+  margin-top: -50%;
+  margin-left: 105%;
   position: relative;
 }
 .s5 .s5-content .partners-content button{
@@ -242,23 +265,64 @@ body .s2 .mission button{
 .s6{
   height: 550px;
   margin: 0 100px;
-  background-color: red;
+  background-color: snow;
   position: relative;
 }
 .s6 .progress{
-  border: 1px solid black;
-
+  height: 50%;
+  width: 100%;
+  float: right;
   text-align: center;
+  position: relative;
+}
+.s6 .progress .tittle-progress{
+  height: 50px;
+  width: 400px;
+  margin: 150px 45% 0 35%;
+  color: #888888;
 }
 .s6 .container{
+  height: 200px;
+  width: 75%;
+  float: right;
+  position: relative;
 
+}
+.s6 .container .Hours, .s6 .container .Sessions, .s6 .container .Volunteer{
+  border: 1px solid #bababa;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin-left: 15px;
+  text-align: center;
+}
+.s6 .container .Hours .price, .s6 .container .Sessions .price, .s6 .container .Volunteer .price{
+  font-size: 40px;
+  margin-top: 45px;
+  padding: 15px;
+}
+.s6 .container .Hours .name, .s6 .container .Sessions .name, .s6 .container .Volunteer .name {
+  font-size: 18px;
+}
+.s6 .container .Hours .price, .s6 .container .Hours .name{
+  color: #7ed7c6;
 }
 
 
-footer{
+.s6 .container .Sessions .price, .s6 .container .Sessions .name{
+  color: #ffc719;
+}
+.s6 .container .Volunteer .price, .s6 .container .Volunteer .name{
+  color: #7fafce;
+}
+
+.footer{
   height:60px;
   margin: 0 100px;
   background-color: black;
   text-align: center;
   position: relative;
+}
+.footer footer{
+  padding: 15px;
 }
