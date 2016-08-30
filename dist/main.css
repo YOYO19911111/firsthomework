@@ -2,8 +2,11 @@
   padding: 0;
   margin: 0 0; }
 
+.page-container {
+  width: 1400px;
+  margin: 0 auto; }
+
 body {
-  margin: 0 90px;
   background-color: #7fafce;
   color: #f6f6f6;
   font-family: sans-serif;
@@ -19,14 +22,14 @@ h2 {
 
 .s2, .s3, .s4, .s5 {
   height: 550px;
-  margin: 0 90px;
+  margin: 0 auto;
   position: relative; }
 
 header.top {
   height: 80px;
-  margin: 0 90px;
+  margin: 0 auto;
   background-color: #fcf9f4;
-  font-size: 18px;
+  font-size: 16px;
   position: relative; }
 
 header.top .top-logo {
@@ -86,7 +89,7 @@ header.top .donate button {
 
 .s1 {
   height: 550px;
-  margin: 0 90px;
+  margin: 0 auto;
   position: relative; }
 
 body .s1 img {
@@ -147,7 +150,7 @@ body .s2 .mission button {
   background-color: #7ed7c6; }
 
 .s3 .s3-image {
-  height: 100%;
+  height: 95%;
   width: 50%;
   position: absolute; }
 
@@ -198,7 +201,7 @@ body .s2 .mission button {
   background-color: #ffc719; }
 
 .s4 .s4-image {
-  height: 100%;
+  height: 95%;
   width: 50%;
   position: absolute;
   float: right; }
@@ -237,7 +240,7 @@ body .s2 .mission button {
 
 .s5 .s5-image {
   width: 50%;
-  height: 100%; }
+  height: 95%; }
 
 .s5 .s5-image img {
   height: 60%;
@@ -263,7 +266,7 @@ body .s2 .mission button {
 
 .s6 {
   height: 550px;
-  margin: 0 100px;
+  margin: 0 auto;
   background-color: snow;
   position: relative; }
 
@@ -313,7 +316,7 @@ body .s2 .mission button {
 
 .footer {
   height: 60px;
-  margin: 0 100px;
+  margin: 0 auto;
   background-color: black;
   text-align: center;
   position: relative; }
